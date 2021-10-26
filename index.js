@@ -175,6 +175,8 @@ function keyHandler(data) {
                 break
             case '60': element.turboCategory = 'Споты_H', element.tags = ['Свет', 'Споты'], element.siteCategory = `Свет/Споты;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 1, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}    
                 break
+            case '60': element.turboCategory = 'Запчасти', element.tags = ['Запчасти'], element.siteCategory = `ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 0}    
+                break
             default: element.turboCategory = 'ОШИБКА!!!', element.tags = ['ОШИБКА!!!'], element.siteCategory = `ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 0}
         }
     })

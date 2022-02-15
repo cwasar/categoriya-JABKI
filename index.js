@@ -127,7 +127,9 @@ function keyHandler(data) {
                 break
             case '35': element.turboCategory = 'Столы обеденные книжки_H', element.tags = ['Столы', 'Столы обеденные', 'Столы-книжки'], element.siteCategory = `Столы/Столы обеденные/Столы-книжки;Мебель для кухни/Кухонные столы;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}   
                 break
-            case '36': element.turboCategory = 'Столы письменные и компьютерные_H', element.tags = ['Столы', 'Столы письменные', 'Столы компьютерные', 'Столы рабочие'], element.siteCategory = `Столы/Столы письменные и компьютерные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 1, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1} 
+            case '36': element.turboCategory = 'Столы письменные и компьютерные_H', element.tags = ['Столы', 'Столы письменные', 'Столы компьютерные', 'Столы рабочие'], element.siteCategory = `Столы/Компьютерные и письменные столы/Компьютерные столы;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 1, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1} 
+                break
+            case '62': element.turboCategory = 'Столы письменные и компьютерные_H', element.tags = ['Столы', 'Столы письменные', 'Столы компьютерные', 'Столы рабочие'], element.siteCategory = `Столы/Компьютерные и письменные столы/Письменные столы;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 1, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1} 
                 break
             case '37': element.turboCategory = 'Столы журнальные_H', element.tags = ['Столы', 'Столы журнальные'], element.siteCategory = `Столы/Журнальные столики;Столы/Кофейные столики;ПОСТАВЩИКИ/${$postavshik.value}`,  element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
                 break

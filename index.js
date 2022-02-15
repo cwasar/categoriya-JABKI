@@ -77,7 +77,9 @@ function keyHandler(data) {
                 break
             case '11': element.turboCategory = 'Вешалки настенные_H', element.tags = ['Вешалки настенные'], element.siteCategory = `Корпусная мебель/Вешалки настенные;ПОСТАВЩИКИ/${$postavshik.value}`,  element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 1, sleep: 0} 
                 break
-            case '12': element.turboCategory = 'Диваны_H', element.tags = ['Диваны'], element.siteCategory = `Мягкая мебель/Диваны;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
+            case '12': element.turboCategory = 'Прямые диваны_H', element.tags = ['Диваны'], element.siteCategory = `Мягкая мебель/Диваны/Прямые диваны;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
+                break
+            case '61': element.turboCategory = 'Угловые диваны_H', element.tags = ['Диваны'], element.siteCategory = `Мягкая мебель/Диваны/Угловые диваны;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
                 break
             case '13': element.turboCategory = 'Диваны для кухни_H', element.tags = ['Диваны'], element.siteCategory = `Мягкая мебель/Диваны для кухни;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 0, dacha: 0, hall: 0, sleep: 0}  
                 break
@@ -119,19 +121,19 @@ function keyHandler(data) {
                 break
             case '32': element.turboCategory = 'Кресла компьютерные игровые_H',element.tags = ['Кресла', 'Кресла компьютерные', 'Кресла игровые'], element.siteCategory = `Компьютерные кресла/Кресла игровые;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 1, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1}  
                 break
-            case '33': element.turboCategory = 'Столы обеденные нераскладные_H', element.tags = ['Столы', 'Столы обеденные', 'Столы нераскладные'], element.siteCategory = `Столы/Столы обеденные/Столы нераскладные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0} 
+            case '33': element.turboCategory = 'Столы обеденные нераскладные_H', element.tags = ['Столы', 'Столы обеденные', 'Столы нераскладные'], element.siteCategory = `Столы/Столы обеденные/Столы нераскладные;Мебель для кухни/Кухонные столы;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0} 
                 break
-            case '34': element.turboCategory = 'Столы обеденные раскладные_H', element.tags = ['Столы', 'Столы обеденные', 'Столы раскладные'], element.siteCategory = `Столы/Столы обеденные/Столы раскладные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}  
+            case '34': element.turboCategory = 'Столы обеденные раскладные_H', element.tags = ['Столы', 'Столы обеденные', 'Столы раскладные'], element.siteCategory = `Столы/Столы обеденные/Столы раскладные;Мебель для кухни/Кухонные столы;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}  
                 break
-            case '35': element.turboCategory = 'Столы обеденные книжки_H', element.tags = ['Столы', 'Столы обеденные', 'Столы-книжки'], element.siteCategory = `Столы/Столы обеденные/Столы-книжки;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}   
+            case '35': element.turboCategory = 'Столы обеденные книжки_H', element.tags = ['Столы', 'Столы обеденные', 'Столы-книжки'], element.siteCategory = `Столы/Столы обеденные/Столы-книжки;Мебель для кухни/Кухонные столы;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}   
                 break
             case '36': element.turboCategory = 'Столы письменные и компьютерные_H', element.tags = ['Столы', 'Столы письменные', 'Столы компьютерные', 'Столы рабочие'], element.siteCategory = `Столы/Столы письменные и компьютерные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 1, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1} 
                 break
-            case '37': element.turboCategory = 'Столы журнальные_H', element.tags = ['Столы', 'Столы журнальные'], element.siteCategory = `Столы/Столы журнальные;ПОСТАВЩИКИ/${$postavshik.value}`,  element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
+            case '37': element.turboCategory = 'Столы журнальные_H', element.tags = ['Столы', 'Столы журнальные'], element.siteCategory = `Столы/Журнальные столики;Столы/Кофейные столики;ПОСТАВЩИКИ/${$postavshik.value}`,  element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
                 break
-            case '38': element.turboCategory = 'Столы кофейные_H', element.tags = ['Столы', 'Столы кофейные'], element.siteCategory = `Столы/Столы кофейные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
+            case '38': element.turboCategory = 'Столы кофейные_H', element.tags = ['Столы', 'Столы кофейные'], element.siteCategory = `Столы/Журнальные столики;Столы/Кофейные столики;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 1, dacha: 0, hall: 0, sleep: 1}  
                 break
-            case '39': element.turboCategory = 'Столы туалетные_H', element.tags = ['Столы', 'Столы туалетные'], element.siteCategory = `Столы/Столы туалетные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1}  
+            case '39': element.turboCategory = 'Столы туалетные_H', element.tags = ['Столы', 'Столы туалетные'], element.siteCategory = `Столы/Туалетные столики;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1}  
                 break
             case '40': element.turboCategory = 'Столы консольные_H', element.tags = ['Столы', 'Столы консольные', 'Консоли'], element.siteCategory = `Столы/Столы консольные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 1}   
                 break
@@ -143,11 +145,11 @@ function keyHandler(data) {
                 break
             case '44': element.turboCategory = 'Аксессуары_H', element.tags = ['Аксессуары'], element.siteCategory = `Предметы интерьера/Аксессуары;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 0, hall: 0, sleep: 0}  
                 break
-            case '45': element.turboCategory = 'Стулья барные_H', element.tags = ['Стулья', 'Стулья барные'], element.siteCategory = `Стулья/Стулья барные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 0, dacha: 0, hall: 0, sleep: 0}
+            case '45': element.turboCategory = 'Стулья барные_H', element.tags = ['Стулья', 'Стулья барные'], element.siteCategory = `Стулья/Барные стулья;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 0, dacha: 0, hall: 0, sleep: 0}
                 break
-            case '46': element.turboCategory = 'Стулья обеденные_H', element.tags = ['Стулья', 'Стулья обеденные'], element.siteCategory = `Стулья/Стулья обеденные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}
+            case '46': element.turboCategory = 'Стулья обеденные_H', element.tags = ['Стулья', 'Стулья обеденные'], element.siteCategory = `Стулья/Обеденные стулья;Мебель для кухни/Стулья для кухни;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 1, dacha: 0, hall: 0, sleep: 0}
                 break
-            case '47': element.turboCategory = 'Стулья складные_H', element.tags = ['Стулья', 'Стулья складные'], element.siteCategory = `Стулья/Стулья складные;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 1, hall: 0, sleep: 0} 
+            case '47': element.turboCategory = 'Стулья складные_H', element.tags = ['Стулья', 'Стулья складные'], element.siteCategory = `Стулья/Складные стулья;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 0, dining: 0, dacha: 1, hall: 0, sleep: 0} 
                 break
             case '48': element.turboCategory = 'Табуреты_H', element.tags = ['Стулья', 'Табуреты'], element.siteCategory = `Стулья/Табуреты;ПОСТАВЩИКИ/${$postavshik.value}`, element.rooms = {work: 0, kitchen: 1, dining: 0, dacha: 0, hall: 0, sleep: 0} 
                 break
